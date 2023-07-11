@@ -81,8 +81,8 @@ def main():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # Get the server's IP address and port
-    server_ip = '34.125.119.174'
-    server_port = 8080
+    server_ip = '' # Input the server's external IP address
+    server_port = 8080 # use any port that you've opened to the public 
 
     while True:
         try:

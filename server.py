@@ -131,7 +131,7 @@ def main():
     while True:
         try:
             # Bind the socket to a specific IP address and port
-            sock.bind(('0.0.0.0', 8080))
+            sock.bind(('0.0.0.0', 8080)) # this will open the whole server up to any connections to port 8080
             break
 
         except Exception as e:

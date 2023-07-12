@@ -62,7 +62,7 @@ def main():
 
     # Wait if Dolphin isn't hooked
     if not dme.is_hooked():
-        print('Not Hooked, waiting for connection to Dolphin')
+        print(f'{"[" + "Console" + "]":>15}Not Hooked, waiting for connection to Dolphin')
         while not dme.is_hooked():
             time.sleep(0.01)
             dme.hook()

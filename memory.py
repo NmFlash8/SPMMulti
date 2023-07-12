@@ -251,6 +251,7 @@ data_address = {
     'Block Y': 0x80D07630,
     'Block Z': 0x80D07634,
     'FlipFlop Pipe': 0x804E26D5,
+    'Low HP Textbox': 0x804E26CB,
 }
 
 ##################
@@ -491,6 +492,7 @@ data_membase = {
     'Block Y': 0,
     'Block Z': 0,
     'FlipFlop Pipe': 0,
+    'Low HP Textbox': 0,
 }
 
 ##################
@@ -730,4 +732,5 @@ data_type = {
     'Block Y': 2,
     'Block Z': 2,
     'FlipFlop Pipe': 0,
+    'Low HP Textbox': 0,
 }

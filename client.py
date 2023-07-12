@@ -55,7 +55,7 @@ def write_data(data, value):
 def main():
     username = input('Username: ')
     # Stats shared between clients / server
-    watch_list = ['HP', 'Max HP', 'Attack', 'Coins', 'Score', 'Level', 'FlipFlop Pipe']
+    watch_list = ['HP', 'Max HP', 'Attack', 'Coins', 'Score', 'Level', 'FlipFlop Pipe', 'Low HP Textbox']
 
     # Connect to Dolphin
     dme.hook()

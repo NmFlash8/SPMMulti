@@ -20,6 +20,8 @@ stats = {
     'Attack': 1,
     'Coins': 0,
     'Level': 1,
+    'FlipFlop Pipe': 0,
+    'Low HP Textbox': 16,
 }
 
 # File path for the stats save file
